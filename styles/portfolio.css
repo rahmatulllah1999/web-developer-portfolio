@@ -39,7 +39,7 @@ nav {
     padding-bottom: 19px;
     padding-right: 35px;
     padding-left: 36px;
-    
+
 }
 
 nav>ul {
@@ -60,18 +60,52 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
-}
-.baner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-    
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
-.baner .profile-pic{
+
+.baner {
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+
+.baner .profile-pic {
     width: 500px;
+
+}
+
+.baner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.baner-title {
+
+
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+
+}
+.baner-para{
+    margin-bottom: 5px;
+}
+.baner-content{
+    max-width: 500px;
 
 }
