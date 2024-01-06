@@ -185,3 +185,21 @@ main section {
     
 
 }
+
+.resume-item-title{
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+.resume-container hr{
+    margin: 30px;
+
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+    
+}
