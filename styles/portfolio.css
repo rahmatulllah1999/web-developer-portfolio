@@ -1,11 +1,16 @@
-/* common shared styles*/
-
+/* common shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-primary {
+    color: #FD6E0A;
+}
 
-/* nav related styles */
+
+
+
+/* nav related styles*/
 
 nav {
     display: flex;
@@ -14,31 +19,12 @@ nav {
     margin: 0 200px;
 
 
-
 }
 
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-
-}
-
-.text-primary {
-    color: #FD6E0A;
-}
-
-.btn-primary {
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding-top: 18px;
-    padding-bottom: 19px;
-    padding-right: 35px;
-    padding-left: 36px;
 
 }
 
@@ -51,70 +37,67 @@ nav>ul {
 
 nav li {
     list-style: none;
-    margin-left: 50px;
-
+    margin-right: 50px;
 
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
+
 }
 
-/* header related styles */
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+
+}
+
 .header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-
 }
 
-.baner {
+.banner {
     padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 
 
 }
 
-.baner .profile-pic {
+.banner .profile-pic {
     width: 500px;
-
 }
 
-.baner-greeting {
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
+
 }
 
-.baner-title {
-
-
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 
 
+}
 
-}
-.baner-para{
-    margin-bottom: 5px;
-}
-.baner-content{
+.banner-para {
     max-width: 500px;
-
-}
-
-.about {
-    padding: 130px;
-    border-radius: 10px;
-    background: #544840;
-    margin: 130px 0;
+    color: #757575;
 }
 
 .section-title {
@@ -125,6 +108,13 @@ nav a {
 
 }
 
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #5b534d;
+    margin: 130px 0;
+}
+
 .section-pera {
     color: #757575;
     text-align: center;
@@ -132,19 +122,22 @@ nav a {
     font-weight: 400;
 
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
 }
-.about-info{
+
+.about-info {
     text-align: center;
-    
+
 }
 
 #what-i-do-description {
@@ -182,10 +175,37 @@ main section {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-    
+
 
 }
 
+.resume-container {
+    display: flex;
+    gap: 50px;
+
+}
+
+.resume-item-institute, .resume-item-description {
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0;
+
+
+}
+
+.resume-colum-title {
+
+    color: #474747;
+    font-weight: 700;
+
+}
 .resume-item-title{
 
     color: #757575;
@@ -201,7 +221,7 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
-    
+
 }
 footer{
     display: flex;
